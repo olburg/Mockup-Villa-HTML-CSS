@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding-top: 100px;
+  min-height: 1000px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #34421e;
+  height: 480px;
+  position: relative;
+  width: 90%;
+  color: #ffffff;
+}
+
+.image {
+  width: 640px;
+  height: 480px;
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/73f94dd52f8f56d096912f75/01.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50px;
+  right: 50px;
+  background-size: cover;
+}
+
+.text {
+  width: 100px;
+  font-size: 75px;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  line-height: 80px;
+  position: absolute;
+  text-transform: uppercase;
+  /*text-align: left;*/
+  top: 50px;
+  left: -100px;
+}
+
+.text2 {
+  width: 300px;
+  font-family: Open sans, sans-serif;
+  line-height: 1.6;
+  text-align: right;
+  display: block;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
