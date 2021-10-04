@@ -36,7 +36,6 @@ body * {
   line-height: 80px;
   position: absolute;
   text-transform: uppercase;
-  /*text-align: left;*/
   top: 50px;
   left: -100px;
 }
